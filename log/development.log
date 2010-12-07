@@ -202,3 +202,11 @@ Created new connection for ['https://www.salesforce.com/services/Soap/u/20.0', '
    Created one-to-many relationship 'process_instances' from Salesforce::Contact to Salesforce::ProcessInstance using target_object_id
    Created one-to-many relationship 'tasks' from Salesforce::Contact to Salesforce::Task using who_id
    Created one-to-many relationship 'user_profile_feeds' from Salesforce::Contact to Salesforce::UserProfileFeed using parent_id
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
