@@ -46,3 +46,159 @@ Created new connection for ['https://www.salesforce.com/services/Soap/u/20.0', '
    Created one-to-many relationship 'process_instances' from Salesforce::Contact to Salesforce::ProcessInstance using target_object_id
    Created one-to-many relationship 'tasks' from Salesforce::Contact to Salesforce::Task using who_id
    Created one-to-many relationship 'user_profile_feeds' from Salesforce::Contact to Salesforce::UserProfileFeed using parent_id
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+Establishing new connection for ['//www.salesforce.com/services/Soap/u/20.0', 'heroku1%40heroku1.com, ''
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+Establishing new connection for ['//www.salesforce.com/services/Soap/u/20.0', 'heroku1%40heroku3.com, ''
+
+Using ActiveSalesforce connection
+Establishing new connection for ['/services/Soap/u/20.0', 'heroku1%40heroku3.com, ''
+
+Using ActiveSalesforce connection
+Establishing new connection for ['/services/Soap/u/20.0', 'heroku1%40heroku3.com, ''
+
+Using ActiveSalesforce connection
+Establishing new connection for ['/services/Soap/u/20.0', 'heroku1%40heroku3.com, ''
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+Establishing new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku1%40heroku3.com, ''
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+
+Using ActiveSalesforce connection
+Establishing new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku1@heroku3.com, ''
+
+Using ActiveSalesforce connection
+Establishing new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku@heroku3.com, ''
+Created new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku@heroku3.com', ''] in 0.281523942947388 seconds
+   Created one-to-one relationship 'master_record' from Salesforce::Contact to Salesforce::Contact using master_record_id
+   Created one-to-one relationship 'account' from Salesforce::Contact to Salesforce::Account using account_id
+   Created one-to-one relationship 'reports_to' from Salesforce::Contact to Salesforce::Contact using reports_to_id
+   Created one-to-one relationship 'owner' from Salesforce::Contact to Salesforce::User using owner_id
+   Created one-to-one relationship 'created_by' from Salesforce::Contact to Salesforce::User using created_by_id
+   Created one-to-one relationship 'last_modified_by' from Salesforce::Contact to Salesforce::User using last_modified_by_id
+   Creating ActiveRecord stub for the referenced entity 'AccountContactRole'
+   Created one-to-many relationship 'account_contact_roles' from Salesforce::Contact to Salesforce::AccountContactRole using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ActivityHistory'
+   Created one-to-many relationship 'activity_histories' from Salesforce::Contact to Salesforce::ActivityHistory using who_id
+   Creating ActiveRecord stub for the referenced entity 'CampaignMember'
+   Created one-to-many relationship 'campaign_members' from Salesforce::Contact to Salesforce::CampaignMember using contact_id
+   Creating ActiveRecord stub for the referenced entity 'CaseContactRole'
+   Created one-to-many relationship 'case_contact_roles' from Salesforce::Contact to Salesforce::CaseContactRole using contact_id
+   Created one-to-many relationship 'case_team_members' from Salesforce::Contact to Salesforce::CaseTeamMember using member_id
+   Creating ActiveRecord stub for the referenced entity 'CaseTeamTemplateMember'
+   Created one-to-many relationship 'case_team_template_members' from Salesforce::Contact to Salesforce::CaseTeamTemplateMember using member_id
+   Created one-to-many relationship 'feeds' from Salesforce::Contact to Salesforce::ContactFeed using parent_id
+   Creating ActiveRecord stub for the referenced entity 'ContactHistory'
+   Created one-to-many relationship 'histories' from Salesforce::Contact to Salesforce::ContactHistory using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ContactShare'
+   Created one-to-many relationship 'shares' from Salesforce::Contact to Salesforce::ContactShare using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ContractContactRole'
+   Created one-to-many relationship 'contract_contact_roles' from Salesforce::Contact to Salesforce::ContractContactRole using contact_id
+   Creating ActiveRecord stub for the referenced entity 'EmailStatus'
+   Created one-to-many relationship 'email_statuses' from Salesforce::Contact to Salesforce::EmailStatus using who_id
+   Created one-to-many relationship 'feed_subscriptions_for_entity' from Salesforce::Contact to Salesforce::EntitySubscription using parent_id
+   Creating ActiveRecord stub for the referenced entity 'Event'
+   Created one-to-many relationship 'events' from Salesforce::Contact to Salesforce::Event using who_id
+   Creating ActiveRecord stub for the referenced entity 'EventAttendee'
+   Created one-to-many relationship 'event_attendees' from Salesforce::Contact to Salesforce::EventAttendee using attendee_id
+   Created one-to-many relationship 'news_feeds' from Salesforce::Contact to Salesforce::NewsFeed using parent_id
+   Creating ActiveRecord stub for the referenced entity 'Note'
+   Created one-to-many relationship 'notes' from Salesforce::Contact to Salesforce::Note using parent_id
+   Creating ActiveRecord stub for the referenced entity 'NoteAndAttachment'
+   Created one-to-many relationship 'notes_and_attachments' from Salesforce::Contact to Salesforce::NoteAndAttachment using parent_id
+   Creating ActiveRecord stub for the referenced entity 'OpenActivity'
+   Created one-to-many relationship 'open_activities' from Salesforce::Contact to Salesforce::OpenActivity using who_id
+   Creating ActiveRecord stub for the referenced entity 'OpportunityContactRole'
+   Created one-to-many relationship 'opportunity_contact_roles' from Salesforce::Contact to Salesforce::OpportunityContactRole using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ProcessInstance'
+   Created one-to-many relationship 'process_instances' from Salesforce::Contact to Salesforce::ProcessInstance using target_object_id
+   Created one-to-many relationship 'tasks' from Salesforce::Contact to Salesforce::Task using who_id
+   Created one-to-many relationship 'user_profile_feeds' from Salesforce::Contact to Salesforce::UserProfileFeed using parent_id
+
+Using ActiveSalesforce connection
+Establishing new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku1@heroku3.com, ''
+
+Using ActiveSalesforce connection
+Establishing new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku@heroku3.com, ''
+Created new connection for ['https://www.salesforce.com/services/Soap/u/20.0', 'heroku@heroku3.com', ''] in 0.394083023071289 seconds
+   Created one-to-one relationship 'master_record' from Salesforce::Contact to Salesforce::Contact using master_record_id
+   Created one-to-one relationship 'account' from Salesforce::Contact to Salesforce::Account using account_id
+   Created one-to-one relationship 'reports_to' from Salesforce::Contact to Salesforce::Contact using reports_to_id
+   Created one-to-one relationship 'owner' from Salesforce::Contact to Salesforce::User using owner_id
+   Created one-to-one relationship 'created_by' from Salesforce::Contact to Salesforce::User using created_by_id
+   Created one-to-one relationship 'last_modified_by' from Salesforce::Contact to Salesforce::User using last_modified_by_id
+   Creating ActiveRecord stub for the referenced entity 'AccountContactRole'
+   Created one-to-many relationship 'account_contact_roles' from Salesforce::Contact to Salesforce::AccountContactRole using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ActivityHistory'
+   Created one-to-many relationship 'activity_histories' from Salesforce::Contact to Salesforce::ActivityHistory using who_id
+   Creating ActiveRecord stub for the referenced entity 'CampaignMember'
+   Created one-to-many relationship 'campaign_members' from Salesforce::Contact to Salesforce::CampaignMember using contact_id
+   Creating ActiveRecord stub for the referenced entity 'CaseContactRole'
+   Created one-to-many relationship 'case_contact_roles' from Salesforce::Contact to Salesforce::CaseContactRole using contact_id
+   Created one-to-many relationship 'case_team_members' from Salesforce::Contact to Salesforce::CaseTeamMember using member_id
+   Creating ActiveRecord stub for the referenced entity 'CaseTeamTemplateMember'
+   Created one-to-many relationship 'case_team_template_members' from Salesforce::Contact to Salesforce::CaseTeamTemplateMember using member_id
+   Created one-to-many relationship 'feeds' from Salesforce::Contact to Salesforce::ContactFeed using parent_id
+   Creating ActiveRecord stub for the referenced entity 'ContactHistory'
+   Created one-to-many relationship 'histories' from Salesforce::Contact to Salesforce::ContactHistory using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ContactShare'
+   Created one-to-many relationship 'shares' from Salesforce::Contact to Salesforce::ContactShare using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ContractContactRole'
+   Created one-to-many relationship 'contract_contact_roles' from Salesforce::Contact to Salesforce::ContractContactRole using contact_id
+   Creating ActiveRecord stub for the referenced entity 'EmailStatus'
+   Created one-to-many relationship 'email_statuses' from Salesforce::Contact to Salesforce::EmailStatus using who_id
+   Created one-to-many relationship 'feed_subscriptions_for_entity' from Salesforce::Contact to Salesforce::EntitySubscription using parent_id
+   Creating ActiveRecord stub for the referenced entity 'Event'
+   Created one-to-many relationship 'events' from Salesforce::Contact to Salesforce::Event using who_id
+   Creating ActiveRecord stub for the referenced entity 'EventAttendee'
+   Created one-to-many relationship 'event_attendees' from Salesforce::Contact to Salesforce::EventAttendee using attendee_id
+   Created one-to-many relationship 'news_feeds' from Salesforce::Contact to Salesforce::NewsFeed using parent_id
+   Creating ActiveRecord stub for the referenced entity 'Note'
+   Created one-to-many relationship 'notes' from Salesforce::Contact to Salesforce::Note using parent_id
+   Creating ActiveRecord stub for the referenced entity 'NoteAndAttachment'
+   Created one-to-many relationship 'notes_and_attachments' from Salesforce::Contact to Salesforce::NoteAndAttachment using parent_id
+   Creating ActiveRecord stub for the referenced entity 'OpenActivity'
+   Created one-to-many relationship 'open_activities' from Salesforce::Contact to Salesforce::OpenActivity using who_id
+   Creating ActiveRecord stub for the referenced entity 'OpportunityContactRole'
+   Created one-to-many relationship 'opportunity_contact_roles' from Salesforce::Contact to Salesforce::OpportunityContactRole using contact_id
+   Creating ActiveRecord stub for the referenced entity 'ProcessInstance'
+   Created one-to-many relationship 'process_instances' from Salesforce::Contact to Salesforce::ProcessInstance using target_object_id
+   Created one-to-many relationship 'tasks' from Salesforce::Contact to Salesforce::Task using who_id
+   Created one-to-many relationship 'user_profile_feeds' from Salesforce::Contact to Salesforce::UserProfileFeed using parent_id
