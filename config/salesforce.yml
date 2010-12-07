@@ -1,0 +1,20 @@
+development:
+    adapter: activesalesforce
+    url: https://www.salesforce.com
+    username: heroku@heroku3.com
+    password: herokucCKLzMlUcIhTVczaGkxxzTpP9
+    api_version: 20.0
+
+production:
+    adapter: activesalesforce
+    url: https://www.salesforce.com
+    username: heroku@heroku3.com
+    password: herokucCKLzMlUcIhTVczaGkxxzTpP9
+    api_version: 20.0
+  
+salesforce-default-realm:
+    adapter: activesalesforce
+    url: https://www.salesforce.com
+    username: heroku@heroku3.com
+    password: herokucCKLzMlUcIhTVczaGkxxzTpP9
+    api_version: 20.0
