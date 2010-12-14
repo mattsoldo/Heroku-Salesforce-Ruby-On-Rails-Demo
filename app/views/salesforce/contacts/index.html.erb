@@ -1,0 +1,23 @@
+<h1>Listing contacts</h1>
+
+<table>
+  <tr>
+    <th>First name</th>
+    <th>Last name</th>
+    <th>Phone</th>
+  </tr>
+
+<% @salesforce_contacts.each do |contact| %>
+  <tr>
+    <td><%= link_to 'Edit', edit_salesforce_contact_path(h contact.id) %> <%=h contact.first_name %></td>
+    <td><%=h contact.last_name %></td>
+    <td><%=h contact.phone %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New contact', new_salesforce_contact_path %>
+

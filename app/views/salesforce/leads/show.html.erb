@@ -1,0 +1,23 @@
+<p>
+  <b>First name:</b>
+  <%=h @lead.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%=h @lead.last_name %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @lead.phone %>
+</p>
+
+<p>
+  <b>Company:</b>
+  <%=h @lead.company %>
+</p>
+
+
+<%= link_to 'Edit', edit_salesforce_lead_path(@lead) %> |
+<%= link_to 'Back', salesforce_leads_path %>

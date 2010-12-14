@@ -1,0 +1,18 @@
+<p>
+  <b>First name:</b>
+  <%=h @contact.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%=h @contact.last_name %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @contact.phone %>
+</p>
+
+
+<%= link_to 'Edit', edit_salesforce_contact_path(@contact) %> |
+<%= link_to 'Back', salesforce_contacts_path %>
